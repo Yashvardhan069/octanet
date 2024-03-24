@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1em;
+    text-align: center;
+   }
+   
+   main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+   }
+   
+   section {
+    background-color: #f2f2f2;
+    flex: 1 1 300px;
+    margin: 1em;
+    padding: 1em;
+   }
+   
+   section h2 {
+    color: #007BFF;
+   }
+   
+   footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 1em;
+    text-align: center;
+   }
+   
+   form {
+    margin: 1em 0;
+   }
+   
+   label {
+    display: block;
+    margin-top: 1em;
+   }
+   
+   input[type="text"], input[type="email"], textarea {
+    display: block;
+    margin-top: 0.5em;
+    width: 100%;
+   }
+   
+   input[type="submit"] {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+   }
+   
+   input[type="submit"]:hover {
+    cursor: pointer;
+   }
